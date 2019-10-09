@@ -1,0 +1,10 @@
+adminUser:
+  password: local:cicd-demo/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jxbot@jenkinsx.com
+  token: local:cicd-demo/pipelineUser:token
+  username: hegdeph
+prow:
+  hmacToken: local:cicd-demo/prow:hmacToken
